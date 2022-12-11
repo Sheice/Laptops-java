@@ -14,22 +14,22 @@ public class Laptop {
 
     private String marca;
 
-    private int tamaño;
+    private int tamanio;
 
     // constructores
 
     public Laptop() {
     }
 
-    public Laptop(String marca, int tamaño) {
+    public Laptop(String marca, int tamanio) {
         this.marca = marca;
-        this.tamaño = tamaño;
+        this.tamanio = tamanio;
     }
 
-    public Laptop(Long id, String marca, int tamaño) {
+    public Laptop(Long id, String marca, int tamanio) {
         this.id = id;
         this.marca = marca;
-        this.tamaño = tamaño;
+        this.tamanio = tamanio;
     }
 
     // getters and setters
@@ -51,11 +51,11 @@ public class Laptop {
         this.marca = marca;
     }
 
-    public int getTamaño() {
-        return tamaño;
+    public int getTamanio() {
+        return tamanio;
     }
 
-    public void setTamaño(int tamaño) {
-        this.tamaño = tamaño;
+    public void setTamanio(int tamaño) {
+        this.tamanio = tamaño;
     }
 }
